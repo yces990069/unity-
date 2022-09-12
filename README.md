@@ -1,5 +1,5 @@
 # unity 學習日誌
-2022/3 正式接觸unity 跟著教學做了些有的沒的的小遊戲  
+2022/3月 正式接觸unity 跟著教學做了些有的沒的的小遊戲  
 2022/9/5 頹廢整個暑假後開始繼續學  
 2022/9/12 學習何謂四元數,嘗試只看unity api做出角色控制器  
 四元數簡易概念教學 https://www.youtube.com/watch?v=d4EgbgTm0Bg
@@ -7,8 +7,13 @@
 # 筆記
 以下都是我從unityapi抓下來然後解析並白話的翻譯成中文 :)  
 https://docs.unity3d.com/ScriptReference/  
-# 筆記 Input
-
+# 筆記 Input.GetAxis(string axisName)  
+axisName有哪些我其實也不知道,但是可以到Input Manager中進行修正或修改  
+常用的有四個"Vertical","Horizontal","Mouse X","Mouse Y"  
+"Vertical"   偵測鍵盤W和S/up和down(-1,0,1)  
+"Horizontal" 偵測鍵盤A和D/right和left(-1,0,1)  
+"Mouse X"    偵測滑鼠在屏幕X方向之標準化位移量  
+"Mouse Y"    偵測滑鼠在屏幕Y方向之標準化位移量    
 # 筆記 Quaternion  
 Quaternion.LookRotation(Vector3 a,Vector3 b)  
 將兩個向量a和b做外積後回傳 *註解如果之輸入一個Vector3 則將Vecter3 b默認為世界的y軸  
