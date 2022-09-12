@@ -5,10 +5,10 @@
 
 
 # 筆記 Quaternion
-Quaternion.LookRotation(Vector3 a,Vector3 b)
-將兩個向量a和b做外積後回傳 *註解 
-Quaternion.Angle(Quaternion a, Quaternion b)
-輸入兩個四元數後回傳兩者之夾角
+Quaternion.LookRotation(Vector3 a,Vector3 b)  
+將兩個向量a和b做外積後回傳 *註解  
+Quaternion.Angle(Quaternion a, Quaternion b)  
+輸入兩個四元數後回傳兩者之夾角  
 Quaternion.Euler  
 Quaternion.Slerp  
 Quaternion.FromToRotation  
