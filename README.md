@@ -18,7 +18,7 @@ Quaternion.Euler(float x, float y, float z)
 輸入三個角度,將尤拉角轉換為四元數  
 Quaternion.Slerp(Quaternion a, Quaternion b, float t)  
 在四元數a和b之間線性值一個新的四元數  
-Quaternion.FromToRotation (Vector3 fromDirection, Vector3 toDirection)
+Quaternion.FromToRotation (Vector3 fromDirection, Vector3 toDirection)  
 創建一個rotation 從fromDirection到toDirection  
 Quaternion.identity  
 這個四元數對應於“無變換”  
