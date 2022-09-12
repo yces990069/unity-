@@ -14,7 +14,7 @@ Quaternion.LookRotation(Vector3 a,Vector3 b)
 將兩個向量a和b做外積後回傳 *註解如果之輸入一個Vector3 則將Vecter3 b默認為世界的y軸  
 Quaternion.Angle(Quaternion a, Quaternion b)  
 輸入兩個四元數後回傳兩者之夾角  
-Quaternion.Euler(float x, float y, float z)
+Quaternion.Euler(float x, float y, float z)  
 輸入三個角度,將尤拉角轉換為四元數  
 Quaternion.Slerp(Quaternion a, Quaternion b, float t)  
 在四元數a和b之間線性值一個新的四元數  
