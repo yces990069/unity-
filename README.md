@@ -7,6 +7,8 @@
 # 筆記
 以下都是我從unityapi抓下來然後解析並白話的翻譯成中文 :)  
 https://docs.unity3d.com/ScriptReference/  
+# 筆記 Input
+
 # 筆記 Quaternion  
 Quaternion.LookRotation(Vector3 a,Vector3 b)  
 將兩個向量a和b做外積後回傳 *註解如果之輸入一個Vector3 則將Vecter3 b默認為世界的y軸  
@@ -15,6 +17,10 @@ Quaternion.Angle(Quaternion a, Quaternion b)
 Quaternion.Euler(float x, float y, float z)
 輸入三個角度,將尤拉角轉換為四元數  
 Quaternion.Slerp(Quaternion a, Quaternion b, float t)  
-在四元數a和b之間線性值一個新的四元數
-Quaternion.FromToRotation  
-and Quaternion.identity  
+在四元數a和b之間線性值一個新的四元數  
+Quaternion.FromToRotation (Vector3 fromDirection, Vector3 toDirection)
+創建一個rotation 從fromDirection到toDirection  
+Quaternion.identity  
+這個四元數對應於“無變換”  
+剩下不常用所以就懶得翻譯,以下提供連結自行查看    
+https://docs.unity3d.com/ScriptReference/Quaternion.html  
