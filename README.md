@@ -5,8 +5,9 @@
 四元數簡易概念教學 https://www.youtube.com/watch?v=d4EgbgTm0Bg
 
 # 快速理解四元數Quaternion
-其概念有點類似於stereographic projection,四元數是將四維度的圖形投射到三度空間上以描述一物體在攤度空間之選轉  
-![Uploading 947c1e303c9440b12dd4f01bf6eafe3172997b7f.svg…]()
+其概念類似於stereographic projection,四元數是將四維度的圖形投射到三度空間上用以描述一物體在三度空間之選轉  
+假設空間上有一點(x,y,z)沿著向量(vx,vy,vz)旋轉 $\theta$ 度
+
 
 # 筆記
 以下都是我從unityapi抓下來然後解析並白話的翻譯成中文 :)  
