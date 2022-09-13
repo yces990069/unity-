@@ -7,7 +7,7 @@
 # 快速理解四元數Quaternion
 其概念類似於stereographic projection,四元數是將四維度的圖形投射到三度空間上用以描述一物體在三度空間之選轉  
 假設空間上有一點(x,y,z)沿著向量(vx,vy,vz)旋轉 $\theta$ 度
-
+Rq(p)=qpq
 
 # 筆記
 以下都是我從unityapi抓下來然後解析並白話的翻譯成中文 :)  
