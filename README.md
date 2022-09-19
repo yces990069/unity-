@@ -4,7 +4,7 @@
 2022/9/12 學習何謂四元數,嘗試只看unity api做出角色控制器  
 2022/9/13 角色控制器完成?  
 2022/9/19 放棄教學,決定只看官方api設計西洋棋  
-2022/20
+2022/9/20 
 # 快速理解四元數Quaternion
 其概念類似於stereographic projection,四元數是將四維度的圖形投射到三度空間上用以描述一物體在三度空間之選轉  
 假設空間上有一點(x,y,z)沿著向量(vx,vy,vz)旋轉 $\theta$ 度
@@ -36,3 +36,5 @@ Quaternion.identity
 這個四元數對應於“無變換”  
 剩下不常用所以就懶得翻譯,以下提供連結自行查看    
 https://docs.unity3d.com/ScriptReference/Quaternion.html  
+# 筆記 Render.Material 
+
